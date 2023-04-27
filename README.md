@@ -2,7 +2,6 @@
  Music recommender system based on collaborative filtering using the ListenBrainz listens dataset.
  
  ## Summary
----
 This project aims to develop a music recommendation system using collaborative filtering with the ListenBrainz database. The goal is to create a model that can recommend artists to users based on their listening history, by identifying patterns in the listening behavior of similar users.
 
 The project consists of two main parts divided in two different Colab Python Notebooks: data processing and model generation.
@@ -14,7 +13,6 @@ This file is then used in the model generation step, where a sparse matrix is cr
 Technologies used in this project include Python, Pandas, NumPy, and the implicit library for collaborative filtering.
 
 ## Data
----
 The ListenBrainz data is distributed in 12 files, one for each month of 2022.
 
 Every listen is identified by a `recording_msid` that is random (the same song could have multiple different `recording_msid`). To compare the data we need to convert this id into a `recording_mbid` that is present in the database.
@@ -25,15 +23,13 @@ To do this there are three additional files:
 - `artist_mbid` to artist name mapping, with the name of all artists in the MusicBrainz database. (`musicbrainz_artist_mbid_name.csv`)
 
 ## Model
----
 
 
 ## Results
----
 To evaluate the model's accuracy, it's tested for some known artists and check the resulting recommendations.
 
 |n|score	 | artist_name |
-| | :---:    | :---:     |
+|:---: | :---:    | :---:     |
 |0|	1.000000 |	Iron & Wine |
 |1|	0.422283 |	Gregory Alan Isakov |
 |2|	0.390881 |	Fleet Foxes |
