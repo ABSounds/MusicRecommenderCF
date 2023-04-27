@@ -40,3 +40,29 @@ To evaluate the model's accuracy, it's tested for some known artists and check t
 |7|	0.365435 |	Lord Huron |
 |8|	0.360813 |	Death Cab for Cutie |
 |9|	0.341159 |	The Head and the Heart |
+
+|n|score|artist_name|
+|:---:|:---:|:---:
+|0	|1.000000|	高中正義|
+|1	|0.386140|	Casiopea|
+|2	|0.328007|	大貫妙子|
+|3	|0.326699|	T‐SQUARE|
+|4	|0.301526|	杏里|
+|5	|0.278965|	Lamp|
+|6	|0.277665|	Naniwa Express|
+|7	|0.277088|	Piper|
+|8	|0.269268|	Serge Ponsar|
+|9	|0.268987|	TUCKER|
+
+|n|score|artist_name|
+|:--:|:---:|:---:|
+|0	|1.000000|	The Band|
+|1	|0.518695|	Van Morrison|
+|2	|0.494562|	Crosby|
+|3	|0.464024|	Bob Dylan|
+|4	|0.462077|	Crosby|
+|5	|0.435122|	Grateful Dead|
+|6	|0.425560|	George Harrison|
+|7	|0.420686|	Neil Young|
+|8	|0.418821|	The Byrds|
+|9	|0.413197|	Warren Zevon|
