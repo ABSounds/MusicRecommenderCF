@@ -28,6 +28,7 @@ To do this there are three additional files:
 ## Results
 To evaluate the model's accuracy, it's tested for some known artists and check the resulting recommendations.
 
+Artist recommendations for _Iron & Wine_
 |n|score	 | artist_name |
 |:---: | :---:    | :---:     |
 |0|	1.000000 |	Iron & Wine |
@@ -41,8 +42,9 @@ To evaluate the model's accuracy, it's tested for some known artists and check t
 |8|	0.360813 |	Death Cab for Cutie |
 |9|	0.341159 |	The Head and the Heart |
 
+Artist recommendations for _Masayoshi Takanaka (高中正義)_
 |n|score|artist_name|
-|:---:|:---:|:---:
+|:---:|:---:|:---:|
 |0	|1.000000|	高中正義|
 |1	|0.386140|	Casiopea|
 |2	|0.328007|	大貫妙子|
@@ -54,6 +56,7 @@ To evaluate the model's accuracy, it's tested for some known artists and check t
 |8	|0.269268|	Serge Ponsar|
 |9	|0.268987|	TUCKER|
 
+Artist recommendations for _The Band_
 |n|score|artist_name|
 |:--:|:---:|:---:|
 |0	|1.000000|	The Band|
