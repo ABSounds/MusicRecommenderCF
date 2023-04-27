@@ -23,7 +23,7 @@ To do this there are three additional files:
 - `artist_mbid` to artist name mapping, with the name of all artists in the MusicBrainz database. (`musicbrainz_artist_mbid_name.csv`)
 
 ## Model
-
+The model uses a collaborative filtering recommendation system to make personalized recommendations by analyzing user-artist interactions. Data is stored in a sparse matrix, weighted using the BM25 algorithm, and the Alternating Least Squares (ALS) algorithm is used to learn the latent features of the users and artists. The model finds the most similar items using cosine similarity and provides a list of recommended items sorted by their similarity score.
 
 ## Results
 To evaluate the model's accuracy, it's tested for some known artists and check the resulting recommendations.
