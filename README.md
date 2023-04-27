@@ -4,7 +4,7 @@
  ## Summary
 This project aims to develop a music recommendation system using collaborative filtering with the ListenBrainz database. The goal is to create a model that can recommend artists to users based on their listening history, by identifying patterns in the listening behavior of similar users.
 
-The project consists of two main parts divided in two different Colab Python Notebooks: data processing and model generation.
+The project consists of two main parts divided in two different Colab Python Notebooks: data processing (`ListeningBrainzColFilt_DataTransform.ipynb`) and model generation (`ListeningBrainzColFilt_RecomModel.ipynb`).
 
 In the data processing step, the files containing the listening history of the users from the ListenBrainz database are parsed and transformed into a final csv file containing the id of each user, an id for each artist and the playcount of each artist by that user. 
 
