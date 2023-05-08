@@ -1,4 +1,4 @@
-# MusicRecommendationCF
+# MusicRecommenderCF
  Music recommender system based on collaborative filtering using the ListenBrainz listens dataset.
  
  ## Summary
